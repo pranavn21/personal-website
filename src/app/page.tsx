@@ -13,7 +13,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative flex flex-col items-center justify-center text-center py-24 w-full">
         <h1 className="text-5xl md:text-7xl font-bold mb-4 drop-shadow-lg animate-fade-in">
-          Hi, I'm <span className="text-indigo-400">{resumeData.name}</span>
+          Hi, I&apos;m <span className="text-indigo-400">{resumeData.name}</span>
         </h1>
         <p className="text-xl md:text-2xl text-indigo-200 mb-8 animate-fade-in delay-200">
           Software Engineer & Space Enthusiast

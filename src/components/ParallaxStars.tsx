@@ -19,7 +19,7 @@ export default function ParallaxStars() {
     refs.current.forEach((layer, i) => {
       if (!layer) return;
       const stars = Array.from(layer.children) as HTMLDivElement[];
-      stars.forEach((star, j) => {
+      stars.forEach((star, _) => {
         const duration = STAR_LAYERS[i].speed + random(-10, 10);
         star.animate(
           [
