@@ -3,10 +3,10 @@ import "./globals.css";
 import ParallaxStars from "@/components/ParallaxStars";
 
 export const metadata: Metadata = {
-  title: "Pranav Nair — Portfolio",
+  title: "Pranav Nair - Portfolio",
   description: "Check out my portfolio through a cosmic, interactive experience!",
   openGraph: {
-    title: "Pranav Nair — Portfolio",
+    title: "Pranav Nair - Portfolio",
     description: "Check out my portfolio through a cosmic, interactive experience!",
     url: "https://www.pranav-nair.com",
     siteName: "Pranav Nair Portfolio",
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pranav Nair — Portfolio",
-    description: "Explore Pranav Nair's cosmic, interactive portfolio: experience, projects, skills, and more.",
+    title: "Pranav Nair - Portfolio",
+    description: "Check out my portfolio through a cosmic, interactive experience!",
     images: ["/og-image.png"],
   },
 };
@@ -35,6 +35,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/png" href="/og-image.png" />
+      </head>
       <body className="min-h-screen bg-gradient-to-b from-black via-indigo-900 to-blue-900 text-white font-sans relative overflow-x-hidden">
         <ParallaxStars />
         {/* Starfield background */}
