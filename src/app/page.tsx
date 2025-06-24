@@ -53,11 +53,6 @@ export default function Home() {
         <Skills />
         <Contact />
       </div>
-      {/* Contact Me at the bottom */}
-      <footer className="mt-24 flex flex-col items-center gap-2 pb-8 animate-fade-in">
-        <h3 className="text-lg font-bold text-indigo-200 mb-1">Contact Me</h3>
-        <a href="mailto:pranavnair65@gmail.com" className="text-indigo-300 hover:underline text-base bg-indigo-900/60 px-4 py-2 rounded-full border border-indigo-500/40 shadow-lg transition">pranavnair65@gmail.com</a>
-      </footer>
     </main>
   );
 }

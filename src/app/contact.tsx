@@ -15,14 +15,16 @@ function Rocket() {
 export default function Contact() {
   return (
     <section id="contact" className="max-w-xl mx-auto py-20 px-4 animate-fade-in">
-      <h2 className="text-3xl font-bold mb-8 text-indigo-300">Contact</h2>
-      <div className="flex flex-col items-center gap-6">
-        <div className="animate-float">
+      <div className="flex flex-col items-center gap-4">
+        <div className="animate-float flex justify-center w-full">
           <Rocket />
         </div>
-        <a href={`mailto:${resumeData.email}`} className="text-indigo-200 text-lg hover:underline">{resumeData.email}</a>
-        <a href={`https://github.com/${resumeData.github}`} target="_blank" rel="noopener noreferrer" className="text-indigo-200 hover:underline">GitHub</a>
-        <a href={`https://linkedin.com/in/${resumeData.linkedin}`} target="_blank" rel="noopener noreferrer" className="text-indigo-200 hover:underline">LinkedIn</a>
+        <h2 className="text-3xl font-bold mb-8 text-indigo-300 text-center">Contact Me</h2>
+        <div className="flex flex-col gap-4 w-full items-center">
+          <a href="mailto:pranavnair65@gmail.com" className="text-indigo-300 hover:underline text-base bg-indigo-900/60 px-4 py-2 rounded-full border border-indigo-500/40 shadow-lg transition">Email</a>
+          <a href={`https://github.com/${resumeData.github}`} target="_blank" rel="noopener noreferrer" className="text-indigo-300 hover:underline text-base bg-indigo-900/60 px-4 py-2 rounded-full border border-indigo-500/40 shadow-lg transition">GitHub</a>
+          <a href={`https://linkedin.com/in/${resumeData.linkedin}`} target="_blank" rel="noopener noreferrer" className="text-indigo-300 hover:underline text-base bg-indigo-900/60 px-4 py-2 rounded-full border border-indigo-500/40 shadow-lg transition">LinkedIn</a>
+        </div>
       </div>
     </section>
   );
