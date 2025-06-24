@@ -29,7 +29,7 @@ export default function Home() {
         <div className="absolute left-0 top-1/2 -translate-y-1/2 animate-planet-orbit" style={{zIndex:0}}>
           <Planet size={64} variant="ring" style={{ filter: "drop-shadow(0 0 16px #7dd3fc)" }} />
         </div>
-        <div className="absolute right-0 top-1/3 animate-planet-orbit2 cursor-pointer group" style={{zIndex:0}} onClick={() => window.open("https://www.abbyarce.com", "_blank") } title="Easter Egg!">
+        <div className="absolute right-0 top-1/3 animate-planet-orbit2 cursor-pointer group" style={{zIndex:0}} onClick={() => window.open("https://www.abby-arce.com/", "_blank") } title="Easter Egg!">
           <Planet size={48} variant="crater" style={{ filter: "drop-shadow(0 0 12px #f472b6)", transition: 'transform 0.2s' }} />
           <span className="absolute top-full left-1/2 -translate-x-1/2 mt-2 text-xs text-pink-300 opacity-0 group-hover:opacity-100 transition">Easter Egg!</span>
         </div>
