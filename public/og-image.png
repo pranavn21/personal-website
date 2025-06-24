@@ -1,0 +1,7 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#181F3A"/>
+  <ellipse cx="600" cy="315" rx="180" ry="180" fill="#7dd3fc"/>
+  <ellipse cx="600" cy="370" rx="220" ry="40" fill="#fbbf24" opacity="0.7" transform="rotate(-10 600 370)"/>
+  <ellipse cx="600" cy="370" rx="220" ry="40" fill="#fbbf24" opacity="0.3" transform="rotate(10 600 370)"/>
+  <text x="600" y="355" text-anchor="middle" font-size="180" font-family="Arial, Helvetica, sans-serif" fill="#181F3A" font-weight="bold">P</text>
+</svg> 
