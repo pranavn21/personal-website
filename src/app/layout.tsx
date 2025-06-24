@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import ParallaxStars from "@/components/ParallaxStars";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,14 +20,28 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className="min-h-screen bg-gradient-to-b from-black via-indigo-900 to-blue-900 text-white font-sans relative overflow-x-hidden">
+        <ParallaxStars />
+        {/* Starfield background */}
+        <div className="fixed inset-0 -z-10 pointer-events-none">
+          <svg width="100%" height="100%" className="absolute inset-0 w-full h-full">
+            {[...Array(150)].map((_, i) => (
+              <circle
+                key={i}
+                cx={Math.random() * 1920}
+                cy={Math.random() * 1080}
+                r={Math.random() * 1.2 + 0.3}
+                fill="white"
+                opacity={Math.random() * 0.7 + 0.2}
+              />
+            ))}
+          </svg>
+        </div>
         {children}
       </body>
     </html>
