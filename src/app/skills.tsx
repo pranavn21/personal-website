@@ -14,7 +14,7 @@ export default function Skills() {
     <section id="skills" className="max-w-4xl mx-auto py-20 px-4 animate-fade-in">
       <h2 className="text-3xl font-bold mb-8 text-indigo-300">Skills</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {skillGroups.map((group, _) => {
+        {skillGroups.map((group) => {
           const skills = resumeData.skills[group.key as keyof typeof resumeData.skills] as string[];
           return (
             <div key={group.key} className="relative bg-gradient-to-br from-indigo-900/60 to-blue-900/60 border border-indigo-500/40 rounded-xl p-6 shadow-lg overflow-hidden">
