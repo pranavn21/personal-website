@@ -21,22 +21,24 @@ const resumeData = {
   ],
   skills: {
     languages: ["C#", "Java", "C++", "Python", "C", "SQL", "JavaScript", "Lua", "Verilog", "Bash scripting"],
-    database: ["Microsoft SQL Server", "MySQL", "PostgreSQL", "MongoDB"],
+    database: ["SQL Server", "MySQL", "PostgreSQL", "MongoDB"],
     ai_ml: ["Matplotlib", "Pandas", "scikit-learn"],
-    framework: ["Angular", "ASP.NET Core", "ReactJS", "FastAPI"],
+    framework: ["Angular", "ASP.NET", "React", "FastAPI"],
     security_tools: ["Redgate", "Dynatrace", "BurpSuite", "Kali Linux tools", "Metasploit"],
-    cloud_other: ["Azure DevOps", "Jira", "Bitbucket", "Git", "Gradle"]
+    cloud_other: ["AWS", "Azure", "Jira", "Bitbucket", "Git", "Gradle"]
   },
   experience: [
     {
       company: "Deloitte Tax LLP",
       location: "Dallas, TX",
-      title: "Software Engineer",
+      title: "Software Engineer II",
       dates: "Jul 2024 - Present",
       bullets: [
-        "Software Engineer for the Internet Partnership Allocation and Compliance System (iPACS™) tax solution for partnerships.",
+        "Software Engineer for the Internet Partnership Allocation and Compliance System (iPACS™) K1A Investor tax solution for investment firms.",
         "Used ASP.NET Core, SQL Server, Angular to provide CI/CD software development through maintenance and bug fixes.",
-        "Utilized Azure DevOps to deploy pipeline releases for continuous build developments to the iPACS software."
+        "Pioneered automated testing by implementing Tricentis Tosca for end-to-end frontend validation and xUnit for unit tests, establishing the project's first test automation framework from scratch to improve coverage and reduce regressions.",
+        "Utilized Azure DevOps to deploy pipeline releases for continuous build developments to the iPACS software.",
+        "Selected as an Onboarding Advisor to guide new hires and interns through their first 3 months, delivering structured mentorship, resource navigation, and recurring check-ins to accelerate ramp-up and team integration."
       ]
     },
     {
