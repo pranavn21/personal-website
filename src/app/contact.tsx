@@ -21,9 +21,10 @@ export default function Contact() {
         </div>
         <h2 className="text-3xl font-bold mb-8 text-indigo-300 text-center">Contact Me</h2>
         <div className="flex flex-col gap-4 w-full items-center">
-          <a href="mailto:pranavnair65@gmail.com" className="text-indigo-300 hover:underline text-base bg-indigo-900/60 px-4 py-2 rounded-full border border-indigo-500/40 shadow-lg transition">Email</a>
+          <a href={`mailto:${resumeData.email}`} className="text-indigo-300 hover:underline text-base bg-indigo-900/60 px-4 py-2 rounded-full border border-indigo-500/40 shadow-lg transition">Email</a>
           <a href={`https://github.com/${resumeData.github}`} target="_blank" rel="noopener noreferrer" className="text-indigo-300 hover:underline text-base bg-indigo-900/60 px-4 py-2 rounded-full border border-indigo-500/40 shadow-lg transition">GitHub</a>
           <a href={`https://linkedin.com/in/${resumeData.linkedin}`} target="_blank" rel="noopener noreferrer" className="text-indigo-300 hover:underline text-base bg-indigo-900/60 px-4 py-2 rounded-full border border-indigo-500/40 shadow-lg transition">LinkedIn</a>
+          <a href="https://app.astrobin.com/u/celestial21#gallery" target="_blank" rel="noopener noreferrer" className="text-indigo-300 hover:underline text-base bg-indigo-900/60 px-4 py-2 rounded-full border border-indigo-500/40 shadow-lg transition">AstroBin</a>
         </div>
       </div>
     </section>

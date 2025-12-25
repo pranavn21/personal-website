@@ -8,12 +8,12 @@ export default function About() {
       <p className="mb-4 text-lg">
         Hi! I&apos;m Pranav, a passionate software engineer with a love for space, technology, and building impactful solutions. I graduated from <span className="font-semibold text-indigo-200">{edu.school}</span> with a <span className="font-semibold text-indigo-200">{edu.degree}</span> (GPA: {edu.gpa}).
       </p>
-      <p className="mb-2 text-md text-indigo-100">Relevant Coursework:</p>
-      <ul className="list-disc list-inside text-indigo-100 mb-4">
-        {edu.coursework.map((c) => (
-          <li key={c}>{c}</li>
-        ))}
-      </ul>
+      <p className="mb-4 text-lg">
+        As an undergraduate, I conducted award-winning research in machine learning for cybersecurity & graduated cum laude (CS Honors, GPA 3.8). I interned at Schwab, where I developed a Java application for Schwab&apos;s thinkorswim trading platform that increased zero-day vulnerability detection by 23% and reduced backend dependency by 30%.
+      </p>
+      <p className="mb-4 text-lg">
+        I thrive at the intersection of software engineering and analytical research, and I&apos;m excited to apply these skills to cutting-edge projects. In my free time, I also explore astrophotography! 🔭🌃
+      </p>
     </section>
   )
 } 
