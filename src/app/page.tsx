@@ -1,6 +1,5 @@
 "use client";
 import resumeData from "@/data/resumeData";
-import Link from "next/link";
 import Planet from "@/components/Planet";
 import About from "./about";
 

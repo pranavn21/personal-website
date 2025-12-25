@@ -75,7 +75,7 @@ export default function Experience() {
         {resumeData.experience.map((exp, i) => (
           <div 
             key={exp.company} 
-            ref={(el) => (itemRefs.current[i] = el)}
+            ref={(el) => { itemRefs.current[i] = el; }}
             className={`relative bg-gradient-to-br from-indigo-900/60 to-blue-900/60 border rounded-xl p-6 shadow-lg overflow-hidden transition-all duration-500 ${
               activeIndex === i 
                 ? "border-indigo-400 shadow-[0_0_30px_rgba(129,140,248,0.5)] opacity-100 scale-100" 
@@ -108,7 +108,7 @@ export default function Experience() {
         <div className="flex flex-col gap-6">
         {/* AWS Certifications */}
         <div 
-          ref={(el) => (certRefs.current[0] = el)}
+          ref={(el) => { certRefs.current[0] = el; }}
           className={`bg-gradient-to-br from-indigo-900/60 to-blue-900/60 border rounded-xl p-6 shadow-lg transition-all duration-500 ${
             activeCertIndex === 0
               ? "border-indigo-400 shadow-[0_0_30px_rgba(129,140,248,0.5)] opacity-100 scale-100" 
@@ -139,7 +139,7 @@ export default function Experience() {
 
         {/* Microsoft Certifications */}
         <div 
-          ref={(el) => (certRefs.current[1] = el)}
+          ref={(el) => { certRefs.current[1] = el; }}
           className={`bg-gradient-to-br from-indigo-900/60 to-blue-900/60 border rounded-xl p-6 shadow-lg transition-all duration-500 ${
             activeCertIndex === 1
               ? "border-indigo-400 shadow-[0_0_30px_rgba(129,140,248,0.5)] opacity-100 scale-100" 
@@ -210,7 +210,7 @@ export default function Experience() {
 
         {/* Deloitte Certifications */}
         <div 
-          ref={(el) => (certRefs.current[2] = el)}
+          ref={(el) => { certRefs.current[2] = el; }}
           className={`bg-gradient-to-br from-indigo-900/60 to-blue-900/60 border rounded-xl p-6 shadow-lg transition-all duration-500 ${
             activeCertIndex === 2
               ? "border-indigo-400 shadow-[0_0_30px_rgba(129,140,248,0.5)] opacity-100 scale-100" 
@@ -241,7 +241,7 @@ export default function Experience() {
 
         {/* Other Certifications */}
         <div 
-          ref={(el) => (certRefs.current[3] = el)}
+          ref={(el) => { certRefs.current[3] = el; }}
           className={`bg-gradient-to-br from-indigo-900/60 to-blue-900/60 border rounded-xl p-6 shadow-lg transition-all duration-500 ${
             activeCertIndex === 3
               ? "border-indigo-400 shadow-[0_0_30px_rgba(129,140,248,0.5)] opacity-100 scale-100" 
