@@ -1,6 +1,7 @@
 "use client";
 import ParallaxStars from "@/components/ParallaxStars";
 import Header from "@/components/Header";
+import resumeData from "@/data/resumeData";
 
 export default function ClientLayout({
   children,
@@ -34,9 +35,9 @@ export default function ClientLayout({
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-col items-center gap-4">
             <div className="flex gap-6 text-sm">
-              <a href="mailto:pranavnair65@gmail.com" className="text-indigo-300 hover:text-indigo-400 transition">Email</a>
-              <a href="https://github.com/prannair" target="_blank" rel="noopener noreferrer" className="text-indigo-300 hover:text-indigo-400 transition">GitHub</a>
-              <a href="https://linkedin.com/in/pranav-nair-9a5853269" target="_blank" rel="noopener noreferrer" className="text-indigo-300 hover:text-indigo-400 transition">LinkedIn</a>
+              <a href={`mailto:${resumeData.email}`} className="text-indigo-300 hover:text-indigo-400 transition">Email</a>
+              <a href={`https://github.com/${resumeData.github}`} target="_blank" rel="noopener noreferrer" className="text-indigo-300 hover:text-indigo-400 transition">GitHub</a>
+              <a href={`https://linkedin.com/in/${resumeData.linkedin}`} target="_blank" rel="noopener noreferrer" className="text-indigo-300 hover:text-indigo-400 transition">LinkedIn</a>
               <a href="https://app.astrobin.com/u/celestial21#gallery" target="_blank" rel="noopener noreferrer" className="text-indigo-300 hover:text-indigo-400 transition">AstroBin</a>
             </div>
             <p className="text-xs text-indigo-300/60">© 2025 Pranav Nair. All rights reserved.</p>
