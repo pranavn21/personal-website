@@ -40,7 +40,7 @@ export default function ClientLayout({
               <a href={`https://linkedin.com/in/${resumeData.linkedin}`} target="_blank" rel="noopener noreferrer" className="text-indigo-300 hover:text-indigo-400 transition">LinkedIn</a>
               <a href="https://app.astrobin.com/u/celestial21#gallery" target="_blank" rel="noopener noreferrer" className="text-indigo-300 hover:text-indigo-400 transition">AstroBin</a>
             </div>
-            <p className="text-xs text-indigo-300/60">© 2025 Pranav Nair. All rights reserved.</p>
+            <p className="text-xs text-indigo-300/60">© 2026 Pranav Nair. All rights reserved.</p>
           </div>
         </div>
       </footer>
