@@ -205,6 +205,16 @@ export default function Experience() {
             </li>
             <li>
               <a 
+                href="https://learn.microsoft.com/api/credentials/share/en-us/prannair/437F9C6927DE8F3A?sharingId=96B679881AC21886" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-indigo-100 hover:text-indigo-300 transition text-sm"
+              >
+                • GitHub Copilot (GH-300)
+              </a>
+            </li>
+            <li>
+              <a 
                 href="https://learn.microsoft.com/en-us/users/prannair/credentials/652230ede340ea90?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
                 target="_blank" 
                 rel="noopener noreferrer"
