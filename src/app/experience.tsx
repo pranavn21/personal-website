@@ -219,7 +219,7 @@ export default function Experience() {
                 rel="noopener noreferrer"
                 className="text-indigo-100 hover:text-indigo-300 transition text-sm"
               >
-                • GitHub Actions
+                • GitHub Actions (GH-200)
               </a>
             </li>
             <li>
