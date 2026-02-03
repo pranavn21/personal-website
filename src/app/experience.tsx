@@ -214,8 +214,16 @@ export default function Experience() {
               </a>
             </li>
             <li>
-              <a 
-                href="https://learn.microsoft.com/en-us/users/prannair/credentials/652230ede340ea90?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
+              <a                 href="https://learn.microsoft.com/en-us/users/prannair/credentials/9338516cb38c9f1b?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-indigo-100 hover:text-indigo-300 transition text-sm"
+              >
+                • GitHub Actions
+              </a>
+            </li>
+            <li>
+              <a                 href="https://learn.microsoft.com/en-us/users/prannair/credentials/652230ede340ea90?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-indigo-100 hover:text-indigo-300 transition text-sm"
