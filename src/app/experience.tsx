@@ -134,6 +134,16 @@ export default function Experience() {
                 • Certified Cloud Practitioner (CLF-C02)
               </a>
             </li>
+            <li>
+              <a 
+                href="https://www.credly.com/badges/15ade5ce-4281-4095-b089-f86813f10d1b/linked_in_profile" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-indigo-100 hover:text-indigo-300 transition text-sm"
+              >
+                • Certified AI Practitioner (AIF-C01)
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -163,6 +173,26 @@ export default function Experience() {
                 className="text-indigo-100 hover:text-indigo-300 transition text-sm"
               >
                 • Azure Fundamentals (AZ-900)
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://learn.microsoft.com/en-us/users/prannair/credentials/c2a9d80d68ed9f5d?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-indigo-100 hover:text-indigo-300 transition text-sm"
+              >
+                • GitHub Advanced Security (GH-500)
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://learn.microsoft.com/en-us/users/prannair/credentials/d4dc8fc520618e9f?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-indigo-100 hover:text-indigo-300 transition text-sm"
+              >
+                • GitHub Administration (GH-100)
               </a>
             </li>
             <li>
