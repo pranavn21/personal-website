@@ -177,12 +177,22 @@ export default function Experience() {
             </li>
             <li>
               <a 
-                href="https://learn.microsoft.com/en-us/users/prannair/credentials/c2a9d80d68ed9f5d?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
+                href="https://learn.microsoft.com/en-us/users/prannair/credentials/506aa45815543c64?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-indigo-100 hover:text-indigo-300 transition text-sm"
               >
-                • GitHub Advanced Security (GH-500)
+                • Azure Data Fundamentals (DP-900)
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://learn.microsoft.com/en-us/users/prannair/credentials/652230ede340ea90?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-indigo-100 hover:text-indigo-300 transition text-sm"
+              >
+                • Microsoft 365 Fundamentals (MS-900)
               </a>
             </li>
             <li>
@@ -197,12 +207,42 @@ export default function Experience() {
             </li>
             <li>
               <a 
-                href="https://learn.microsoft.com/en-us/users/prannair/credentials/506aa45815543c64?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
+                href="https://learn.microsoft.com/en-us/users/prannair/credentials/9338516cb38c9f1b?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-indigo-100 hover:text-indigo-300 transition text-sm"
               >
-                • Azure Data Fundamentals (DP-900)
+                • GitHub Actions (GH-200)
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://learn.microsoft.com/api/credentials/share/en-us/prannair/437F9C6927DE8F3A?sharingId=96B679881AC21886" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-indigo-100 hover:text-indigo-300 transition text-sm"
+              >
+                • GitHub Copilot (GH-300)
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://learn.microsoft.com/en-us/users/prannair/credentials/c2a9d80d68ed9f5d?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-indigo-100 hover:text-indigo-300 transition text-sm"
+              >
+                • GitHub Advanced Security (GH-500)
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://learn.microsoft.com/en-us/users/prannair/credentials/2eb66e3db9ca56bd?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-indigo-100 hover:text-indigo-300 transition text-sm"
+              >
+                • GitHub Foundations (GH-900)
               </a>
             </li>
             <li>
@@ -222,43 +262,6 @@ export default function Experience() {
                 className="text-indigo-100 hover:text-indigo-300 transition text-sm"
               >
                 • Power Platform Fundamentals (PL-900)
-              </a>
-            </li>
-            <li>
-              <a                 href="https://learn.microsoft.com/en-us/users/prannair/credentials/2eb66e3db9ca56bd?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-indigo-100 hover:text-indigo-300 transition text-sm"
-              >
-                • GitHub Foundations (GH-900)
-              </a>
-            </li>
-            <li>
-              <a 
-                href="https://learn.microsoft.com/api/credentials/share/en-us/prannair/437F9C6927DE8F3A?sharingId=96B679881AC21886" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-indigo-100 hover:text-indigo-300 transition text-sm"
-              >
-                • GitHub Copilot (GH-300)
-              </a>
-            </li>
-            <li>
-              <a                 href="https://learn.microsoft.com/en-us/users/prannair/credentials/9338516cb38c9f1b?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-indigo-100 hover:text-indigo-300 transition text-sm"
-              >
-                • GitHub Actions (GH-200)
-              </a>
-            </li>
-            <li>
-              <a                 href="https://learn.microsoft.com/en-us/users/prannair/credentials/652230ede340ea90?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-indigo-100 hover:text-indigo-300 transition text-sm"
-              >
-                • Microsoft 365 Fundamentals (MS-900)
               </a>
             </li>
           </ul>
