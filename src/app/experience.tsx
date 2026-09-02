@@ -295,6 +295,36 @@ export default function Experience() {
                 • GenAI Data Scientist
               </a>
             </li>
+            <li>
+              <a 
+                href="https://www.linkedin.com/in/pranavnair2002/overlay/Certifications/1137256079/treasury/?profileId=ACoAACsu96kB4MoHj4D6qTX2DPrxt3UlU8QfCA8" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-indigo-100 hover:text-indigo-300 transition text-sm"
+              >
+                • Agentic AI
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://www.credly.com/badges/ca8fb9ad-7fbd-45c5-b883-f488f6d3b288/linked_in_profile" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-indigo-100 hover:text-indigo-300 transition text-sm"
+              >
+                • Data Engineering - Foundation
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://www.linkedin.com/in/pranavnair2002/overlay/Certifications/931332138/treasury/?profileId=ACoAACsu96kB4MoHj4D6qTX2DPrxt3UlU8QfCA8" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-indigo-100 hover:text-indigo-300 transition text-sm"
+              >
+                • Data Science Essentials (DSE) Program: Data Analyst
+              </a>
+            </li>
           </ul>
         </div>
 
